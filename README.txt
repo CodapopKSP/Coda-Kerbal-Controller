@@ -4,11 +4,14 @@ Arduino code to run the Coda Kerbal Controller Mk1.
 
 ------------Notes------------
 
+Test Platform!
+
 NEEDS
 1. Abort/Stage words
 2. EVA MP hole
 3. Display Mode/ Board Mode holes
 4. Make COMMS light smaller, organize buttons around it
+5. Square button holes are not square
 
 NEW HOLES
 1. Fan holes                    = 4mm holes (x4)                    in a 50mm x 50mm square (x2), one on each side of the back
