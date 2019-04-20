@@ -33,6 +33,7 @@ NEW HOLES
 8. Corner brace holes           = Two types
                                   #1 4mm hole                       16mm from base line
                                   #2  4mm hole                      26mm from base line
+9. USB Holes                    = 16mm x 9mm (x2)
 
 
 
