@@ -14,7 +14,9 @@ NEEDS
 5. Square button holes are not square
 
 NEW HOLES
-1. Fan holes                    = 4mm holes (x4)                    in a 50mm x 50mm square (x2), one on each side of the back
+1. Fan holes                    = one on each side of the back (x2)
+                                  #1 4mm holes (x4)                 in a 50mm x 50mm square 
+                                  #2 35mm x 16mm holes (x4) (x2)    in the middle of the squares
 2. 5V PSU power cable hole      = 6mm x 3mm                         in the middle of the back
 3. 12V PSU jack hole            = 12mm circle                       near the PSU mounting holes
 4. 12V PSU mounting holes       = Base line = floor of board
