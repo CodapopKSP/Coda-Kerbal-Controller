@@ -3,6 +3,12 @@ Arduino code to run the Coda Kerbal Controller Mk1.
 
 ## Notes
 
+NEEDS
+1. Abort/Stage words
+2. EVA Fuel hole
+3. Display Mode/ Board Mode holes
+
+New Holes
 1. Fan holes                = 4mm holes (x4)                  in a 50mm x 50mm square (x2), one on each side of the back
 
 2. 5V PSU power cable hole  = 6mm x 3mm                       in the middle of the back
