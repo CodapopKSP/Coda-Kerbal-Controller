@@ -10,7 +10,7 @@ NEEDS
 3. Display Mode/ Board Mode holes
 4. Make COMMS light smaller, organize buttons around it
 
-New Holes
+NEW HOLES
 1. Fan holes                    = 4mm holes (x4)                    in a 50mm x 50mm square (x2), one on each side of the back
 2. 5V PSU power cable hole      = 6mm x 3mm                         in the middle of the back
 3. 12V PSU jack hole            = 12mm circle                       near the PSU mounting holes
