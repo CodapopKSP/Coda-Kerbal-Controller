@@ -17,11 +17,12 @@ NEW HOLES
 1. Fan holes                    = one on each side of the back (x2)
                                   #1 4mm holes (x4)                 in a 50mm x 50mm square 
                                   #2 35mm x 16mm holes (x4) (x2)    in the middle of the squares
-2. 5V PSU power cable hole      = 6mm x 3mm                         in the middle of the back
-3. 12V PSU jack hole            = 12mm circle                       near the PSU mounting holes
-4. 12V PSU mounting holes       = Base line = floor of board
+2. 12V PSU jack hole            = 12mm circle                       near the PSU mounting holes
+3. 5V PSU mounting holes        = Base line = floor of board
                                   #1 4mm circle                     92mm from base
                                   #2 4mm circle                     7mm from base, 122mm left of hole #1
+4. 5V PSU power cable jack      = 28mm x 48mm                       to the right of the PSU
+                                  4mm holes (x2)                    6mm from long center
                               
 5. Drawer face                  = 50mm-70mm x ???                   in the middle of the front panel
 6. Drawer handle hole           = 4mm circle                        in center/bottom of drawer
@@ -33,7 +34,8 @@ NEW HOLES
 8. Corner brace holes           = Two types
                                   #1 4mm hole                       16mm from base line
                                   #2  4mm hole                      26mm from base line
-9. USB Holes                    = 16mm x 9mm (x2)
+9. USB Holes                    = 11mm hole (x3)
+                                  4mm hole (x2) (x3)                15mm from center of holes
 
 
 
