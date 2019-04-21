@@ -36,6 +36,8 @@ NEW HOLES
                                   #2  4mm hole                      26mm from base line
 9. USB Holes                    = 11mm hole (x3)
                                   4mm hole (x2) (x3)                15mm from center of holes
+                                  
+TODO: display anchors
 
 
 
