@@ -5,6 +5,7 @@ Arduino code to run the Coda Kerbal Controller Mk1.
 ------------Notes------------
 
 MIDDLE PIECE NOTCH CUT OUT
+EVA MP SCREWS
 
 Test Platform!
 
