@@ -4,6 +4,8 @@ Arduino code to run the Coda Kerbal Controller Mk1.
 
 ------------Notes------------
 
+MIDDLE PIECE NOTCH CUT OUT
+
 Test Platform!
 
 NEEDS
