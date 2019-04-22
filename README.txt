@@ -4,44 +4,17 @@ Arduino code to run the Coda Kerbal Controller Mk1.
 
 ------------Notes------------
 
-INSIDE MIDDLE WALL NOTCH CUT OUT
-EVA MP SCREWS
-THROTTLE SCREWS
+INSIDE MIDDLE WALL NOTCH CUT OUT - to allow cable management
+EVA MP SCREWS - to attach it to the face
+THROTTLE SCREWS - to attach it to the face
+DISPLAY PANEL ANCHOR SCREWS - left/right to attach it to the walls
 
 Test Platform!
 
-NEEDS
-1. Abort/Stage words
-2. EVA MP hole
-3. Display Mode/ Board Mode holes
-4. Make COMMS light smaller, organize buttons around it
-5. Square button holes are not square
-
-NEW HOLES
-1. Fan holes                    = one on each side of the back (x2)
-                                  #1 4mm holes (x4)                 in a 50mm x 50mm square 
-                                  #2 35mm x 16mm holes (x4) (x2)    in the middle of the squares
-2. 12V PSU jack hole            = 12mm circle                       near the PSU mounting holes
-3. 5V PSU mounting holes        = Base line = floor of board
-                                  #1 4mm circle                     92mm from base
-                                  #2 4mm circle                     7mm from base, 122mm left of hole #1
-4. 5V PSU power cable jack      = 28mm x 48mm                       to the right of the PSU
-                                  4mm holes (x2)                    6mm from long center
-                              
-5. Drawer face                  = 50mm-70mm x ???                   in the middle of the front panel
-6. Drawer handle hole           = 4mm circle                        in center/bottom of drawer
-7. Drawer roller holes          = Base line = 20cm from bottom
-                                  #1 4mm hole                       13mm from front, 13mm above base line
-                                  #2 4mm hole                       52mm from front line, on base line
-                                  #3 4mm hole                       131mm from front line, on base line
-                              
-8. Corner brace holes           = Two types
+8. Corner brace holes           = Three types
                                   #1 4mm hole                       16mm from base line
-                                  #2  4mm hole                      26mm from base line
-9. USB Holes                    = 11mm hole (x3)
-                                  4mm hole (x2) (x3)                15mm from center of holes
-                                  
-TODO: display anchors
+                                  #2 4mm hole                       26mm from base line
+                                  #3 4mm hole                       21mm from base line
 
 
 
