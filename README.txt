@@ -9,6 +9,8 @@ EVA MP SCREWS - to attach it to the face
 THROTTLE SCREWS - to attach it to the face
 DISPLAY PANEL ANCHOR SCREWS - left/right to attach it to the walls
 
+Switch Vert V, Altitudes, Add lights
+
 Test Platform!
 
 8. Corner brace holes           = Three types
