@@ -6,6 +6,8 @@
 #include <bitBangedSPI.h>
 #include <MAX7219.h>
 
+#include <ShiftRegister74HC595.h>
+
 KerbalSimpit mySimpit(Serial);
 
 // Analog Utilities
@@ -74,16 +76,19 @@ MAX7219 display9 (1, LOAD, 16, CLK);
 const int displayChangePin = 17;
 const int ignitionKeysPinL = 18;
 const int ignitionKeysPinR = 19;
-const int dimmerPin = A7;
+
+// # Chips / DATA / CLOCK / LATCH
+ShiftRegister74HC595 displayMag_lights (1, 20, 21, 22);
 
 // Analog Pins
-int throttlePin = A0;
-int pitchPin = A1;
-int yawPin = A2;
-int rollPin = A3;
-int xPin = A4;
-int yPin = A5;
-int zPin = A6;
+const int throttlePin = A0;
+const int pitchPin = A1;
+const int yawPin = A2;
+const int rollPin = A3;
+const int xPin = A4;
+const int yPin = A5;
+const int zPin = A6;
+const int dimmerPin = A7;
 
 void setup() {
 
@@ -118,6 +123,9 @@ void setup() {
   display7.begin ();
   display8.begin ();
   display9.begin ();
+  
+  // ShiftOut
+  displayMag_lights.setAllLow();
 
   // Hard Coded Pins
   pinMode(displayChangePin, INPUT);
@@ -247,6 +255,7 @@ void messageHandler(byte messageType, byte msg[], byte msgSize) {
       altitudeMessage myAltitude;
       myAltitude = parseAltitude(msg);
       dtostrf(myAltitude.sealevel, 8, 0, meanAltitude_str);
+      
       dtostrf(myAltitude.surface, 8, 0, srfAltitude_str);
     } break;
     
