@@ -6,6 +6,8 @@ Arduino code to run the Coda Kerbal Controller Mk1.
 
 Test Platform!
 
+Front drawer cover needs holes
+
 
 
 
