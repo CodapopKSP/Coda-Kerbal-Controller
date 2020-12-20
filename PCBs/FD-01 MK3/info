@@ -1,0 +1,189 @@
+{
+  "uuid": "628a86b9f97590e5c786fbd04816ab8b",
+  "path": "Offline/FD-01 MK3",
+  "name": "FD-01 MK3",
+  "content": "Fuel Display for the Kerbal Controller Mk 3",
+  "created_at": "2020-09-08 22:49:51",
+  "updated_at": "2020-12-19 02:59:39",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "1c0dfe2578def840865561c9640420f4",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0f11dad45af90ac5ceb0992c0cc41db1": 24,
+        "bb009484ef804a24ac5d18c54b249586": 180,
+        "27abc73ba5033d1126fd4d36740da2a2": 36,
+        "6baac764081545900d527035a5806b9d": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "74HC595",
+          24,
+          "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL",
+          "IC-B3,IC-A,IC-C,IC-G,IC-H,IC-F,IC-E,IC-E3,IC-F3,IC-H3,IC-G3,IC-C3,IC-D3,IC-D,IC-A3,IC-B,IC-E2,IC-A2,IC-B2,IC-D2,IC-C2,IC-G2,IC-H2,IC-F2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FM",
+            "BOM_Manufacturer Part": "74HC595D",
+            "BOM_Supplier Part": "C86609",
+            "puuid": "bc30752f83694054baa42649cbb6b7d0",
+            "uuid": "0f11dad45af90ac5ceb0992c0cc41db1"
+          }
+        ],
+        [
+          "Arduino",
+          3,
+          "HDR-TH_8P-P2.54-V",
+          "J2,J3,J1",
+          {
+            "BOM_Supplier Part": "C49256",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Header2.54mm 1*8P",
+            "puuid": "366e1b46b2ba4833900571d9613df11d",
+            "uuid": "6baac764081545900d527035a5806b9d"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x10",
+          36,
+          "HDR-TH_10P-P2.54-V",
+          "H16B,H15B,H14B,H13B,H13A,H14A,H15A,H16A,H17A,H18A,H18B,H7B,H8B,H9B,H10B,H11B,H12B,H12A,H11A,H10A,H9A,H8A,H7A,H17B,H1A,H2A,H3A,H4A,H5A,H6A,H6B,H5B,H4B,H3B,H2B,H1B",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "Headers  Pins2.54mm1*10P",
+            "BOM_Supplier Part": "C57369",
+            "puuid": "ef10e215415a49a49cdabc8e1fed0af1",
+            "uuid": "27abc73ba5033d1126fd4d36740da2a2"
+          }
+        ],
+        [
+          "1k",
+          180,
+          "R0603",
+          "R29,R56,R58,R59,R60,R55,R54,R53,R52,R51,R50,R49,R48,R47,R46,R45,R44,R43,R42,R41,R40,R39,R38,R37,R36,R35,R34,R33,R32,R31,R61,R62,R63,R64,R65,R66,R67,R68,R69,R70,R71,R72,R73,R74,R75,R76,R77,R78,R79,R80,R81,R82,R83,R84,R85,R86,R87,R88,R30,R90,R91,R92,R93,R94,R95,R96,R97,R98,R99,R100,R101,R102,R103,R104,R105,R106,R107,R108,R109,R110,R111,R112,R113,R114,R115,R116,R117,R118,R119,R120,R57,R28,R27,R26,R25,R24,R23,R22,R21,R20,R19,R18,R17,R16,R15,R14,R13,R12,R121,R122,R123,R124,R125,R126,R127,R128,R129,R130,R131,R132,R133,R134,R135,R136,R137,R138,R139,R140,R141,R142,R143,R144,R145,R146,R147,R148,R149,R150,R151,R152,R153,R154,R155,R156,R157,R158,R159,R160,R161,R162,R163,R164,R165,R166,R167,R168,R169,R170,R171,R172,R173,R174,R175,R176,R177,R178,R179,R180,R11,R10,R9,R8,R7,R6,R5,R4,R3,R2,R1,R89",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ]
+      ],
+      "updateTime": 1599839198,
+      "createTime": 1599578762,
+      "histories": [],
+      "created_at": "2020-09-08 23:26:02",
+      "updated_at": "2020-09-11 23:46:38"
+    },
+    {
+      "uuid": "111757cc88127ec3a5b1f940b9dd2c02",
+      "puuid": "628a86b9f97590e5c786fbd04816ab8b",
+      "title": "PCB_2020-09-12_01-43-05",
+      "filename": "PCB_2020-09-12_01-43-05.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "bc30752f83694054baa42649cbb6b7d0": 21,
+        "1bf59dff03ec4233aa077dc7cf0e92a1": 160,
+        "ef10e215415a49a49cdabc8e1fed0af1": 32,
+        "7e70b923819e4f3bb9fdeaf4abdca9d3": 3,
+        "31a453d5adfc45cea944a6450adf2918": 1,
+        "97560a62b45c46d5b6e85aaea1cd55a1": 1,
+        "f187d3c25f9f43a29b67d3cfa364ee78": 22
+      },
+      "BOM": [],
+      "updateTime": 1608315977,
+      "createTime": 1599846185,
+      "histories": [],
+      "created_at": "2020-09-12 01:43:05",
+      "updated_at": "2020-12-19 02:26:17"
+    },
+    {
+      "uuid": "1797ff17b72494b2ddc9537354458a8a",
+      "puuid": "43a7660ebbf3e3282938e4b27bcbd2c1",
+      "title": "PCB Space Edit copy",
+      "filename": "PCB Space Edit copy.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "bc30752f83694054baa42649cbb6b7d0": 21,
+        "1bf59dff03ec4233aa077dc7cf0e92a1": 160,
+        "ef10e215415a49a49cdabc8e1fed0af1": 32,
+        "7e70b923819e4f3bb9fdeaf4abdca9d3": 3,
+        "31a453d5adfc45cea944a6450adf2918": 1,
+        "97560a62b45c46d5b6e85aaea1cd55a1": 1,
+        "f187d3c25f9f43a29b67d3cfa364ee78": 22
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1608317979,
+      "createTime": 1608138826,
+      "histories": [],
+      "created_at": "2020-12-17 01:13:46",
+      "updated_at": "2020-12-19 02:59:39"
+    },
+    {
+      "uuid": "08ee5cbf681d17a6dfd8c58753e36e65",
+      "puuid": "628a86b9f97590e5c786fbd04816ab8b",
+      "title": "test fuckup",
+      "filename": "test fuckup.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "bc30752f83694054baa42649cbb6b7d0": 21,
+        "1bf59dff03ec4233aa077dc7cf0e92a1": 160,
+        "ef10e215415a49a49cdabc8e1fed0af1": 32,
+        "7e70b923819e4f3bb9fdeaf4abdca9d3": 3,
+        "31a453d5adfc45cea944a6450adf2918": 1,
+        "97560a62b45c46d5b6e85aaea1cd55a1": 1,
+        "f187d3c25f9f43a29b67d3cfa364ee78": 22
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1608140339,
+      "createTime": 1608139279,
+      "histories": [],
+      "created_at": "2020-12-17 01:21:19",
+      "updated_at": "2020-12-17 01:38:59"
+    }
+  ],
+  "sort": [],
+  "title": "FD-01 MK3",
+  "foldername": "FD-01 MK3",
+  "schfilename": "FD-01 MK3.json",
+  "schfilemtime": 1599839198207
+}
