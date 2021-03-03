@@ -1,0 +1,122 @@
+{
+  "uuid": "6f376e8f491e92e8d92027b0187e5890",
+  "path": "Offline/FD-01 mono",
+  "name": "FD-01 mono",
+  "content": "",
+  "created_at": "2021-02-12 23:22:58",
+  "updated_at": "2021-02-13 00:58:55",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a1c4575397367b1d38722ac56bd267a6",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0f11dad45af90ac5ceb0992c0cc41db1": 2,
+        "27abc73ba5033d1126fd4d36740da2a2": 2,
+        "bb009484ef804a24ac5d18c54b249586": 10,
+        "355f04a15ac74ae6b97cef5b0c71f6b7": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "74HC595",
+          2,
+          "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL",
+          "IC-B1,IC-A1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FM",
+            "BOM_Manufacturer Part": "74HC595D",
+            "BOM_Supplier Part": "C86609",
+            "puuid": "bc30752f83694054baa42649cbb6b7d0",
+            "uuid": "0f11dad45af90ac5ceb0992c0cc41db1"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x10",
+          2,
+          "HDR-TH_10P-P2.54-V",
+          "H1A,H1B",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "Headers  Pins2.54mm1*10P",
+            "BOM_Supplier Part": "C57369",
+            "puuid": "ef10e215415a49a49cdabc8e1fed0af1",
+            "uuid": "27abc73ba5033d1126fd4d36740da2a2"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x5",
+          1,
+          "HDR-TH_5P-P2.54-V-M",
+          "H1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ckmtw",
+            "BOM_Manufacturer Part": "210S-1*5P L=11.6MMGold-plated black",
+            "BOM_Supplier Part": "C124379",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "97560a62b45c46d5b6e85aaea1cd55a1",
+            "uuid": "355f04a15ac74ae6b97cef5b0c71f6b7"
+          }
+        ],
+        [
+          "1k",
+          10,
+          "R0603",
+          "R9,R8,R10,R6,R5,R4,R3,R2,R1,R7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ]
+      ],
+      "updateTime": 1613143983,
+      "createTime": 1613143378,
+      "histories": [],
+      "created_at": "2021-02-12 23:22:58",
+      "updated_at": "2021-02-12 23:33:03"
+    },
+    {
+      "uuid": "060e9f3f69a52ce1825fb5702c3a40c1",
+      "puuid": "6f376e8f491e92e8d92027b0187e5890",
+      "title": "PCB_2021-02-12_23-52-21",
+      "filename": "PCB_2021-02-12_23-52-21.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "bc30752f83694054baa42649cbb6b7d0": 2,
+        "ef10e215415a49a49cdabc8e1fed0af1": 2,
+        "97560a62b45c46d5b6e85aaea1cd55a1": 1,
+        "1bf59dff03ec4233aa077dc7cf0e92a1": 10,
+        "f187d3c25f9f43a29b67d3cfa364ee78": 2
+      },
+      "BOM": [],
+      "updateTime": 1613149135,
+      "createTime": 1613145141,
+      "histories": [],
+      "created_at": "2021-02-12 23:52:21",
+      "updated_at": "2021-02-13 00:58:55"
+    }
+  ],
+  "sort": [],
+  "title": "FD-01 mono",
+  "foldername": "FD-01 mono",
+  "schfilename": "FD-01 mono.json",
+  "schfilemtime": 1613143983703
+}

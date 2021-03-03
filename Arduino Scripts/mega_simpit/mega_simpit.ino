@@ -12,12 +12,6 @@ int rollR;
 int xR;
 int yR;
 int zR;
-
-
-
-bool keyA;
-bool keyB;
-
 int maxVolt = 1019;
 
 
@@ -26,7 +20,7 @@ void setup() {
   Serial.begin(115200);
   while (!mySimpit.init());
 
-   // Analogs
+  // Analogs
   mySimpit.registerChannel(THROTTLE_MESSAGE);
   mySimpit.registerChannel(ROTATION_MESSAGE);
   mySimpit.registerChannel(TRANSLATION_MESSAGE);
@@ -41,13 +35,13 @@ void setup() {
 }
 
 void loop() {
+  if (digitalRead(12) and digitalRead(13)){
   // Analog Controls
     readAnalogs();
     mySimpit.send(THROTTLE_MESSAGE, throttle);
     mySimpit.send(ROTATION_MESSAGE, myRotation);
     mySimpit.send(TRANSLATION_MESSAGE, myTranslation);
-    if ((throttle > 32700) and (myRotation.roll> 32700) and (myTranslation.Z> 32700)){mySimpit.init();}
-
+  }
 }
 
 
